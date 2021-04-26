@@ -62,3 +62,5 @@ $("#update_style").change(function() {
         updateStyle();
     }
 });
+
+$(".el-copyright-year").text(`2020-${new Date().getFullYear()}`)
